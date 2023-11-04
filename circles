@@ -1,2 +1,23 @@
+import turtle
 
-
+def main():
+	
+	shapes = turtle.Turtle()
+	shapes.speed(0)
+	shapes.forward(10)
+	shapes.color("red")
+	shapes.circle(20)         #circle
+	shapes.color("blue")
+	shapes.circle(20,270,3)   #triangle
+	shapes.color("orange")
+	shapes.circle(30,360,4)   #square
+	shapes.color("violet")
+	shapes.circle(50,360,5)   #pentagon
+	shapes.color("yellow")
+	shapes.circle(70,360,6)   #hexagon
+	shapes.color("pink")
+	shapes.circle(90,360,8)   #octagon
+	shapes.color("green")
+	shapes.circle(100,180,2)
+	shapes.circle(100,180)
+main()
